@@ -397,8 +397,8 @@ class commonModel extends model
 
     /**
      * Print admin subMenu.
-     * 
-     * @param  string    $subMenu 
+     *
+     * @param  string    $subMenu
      * @static
      * @access public
      * @return void
@@ -473,7 +473,7 @@ class commonModel extends model
                 if(($lastMenu->name != $menuItem->name) && strpos($lang->dividerMenu, ",{$menuItem->name},") !== false) echo "<li class='divider'></li>";
             }
         }
-        echo "</ul>\n";
+        echo "<li class='divider'></li><li data-id='lanhu'><a target='_blank' href='https://lanhuapp.com/'>蓝湖</a></li></ul>\n";
     }
 
     /**
@@ -1765,8 +1765,8 @@ EOD;
     }
 
     /**
-     * Check Not CN Lang. 
-     * 
+     * Check Not CN Lang.
+     *
      * @static
      * @access public
      * @return bool
