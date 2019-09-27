@@ -1,2 +1,4 @@
 tmp/*
 tmp/log/*
+*conf.json
+__pycache__/*

@@ -473,7 +473,7 @@ class commonModel extends model
                 if(($lastMenu->name != $menuItem->name) && strpos($lang->dividerMenu, ",{$menuItem->name},") !== false) echo "<li class='divider'></li>";
             }
         }
-        echo "<li class='divider'></li><li data-id='lanhu'><a target='_blank' href='https://lanhuapp.com/'>蓝湖</a></li></ul>\n";
+        echo "<li class='divider'></li><li data-id='lanhu'><script src='js/custom.js'></script><a target='_blank' href='https://lanhuapp.com/' onclick='goto_lanhu();'>蓝湖</a></li></ul>\n";
     }
 
     /**
